@@ -1,0 +1,14 @@
+name: gait-data-processor
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg            # required by convert_mkv_to_mp4.py
+  - pytorch=2.2.*
+  - torchvision=0.17.*
+  - pytorch-cuda=12.1 # remove this line for a CPU-only install
+  - pip:
+      - -r requirements.txt

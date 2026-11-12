@@ -1,0 +1,19 @@
+# Core
+numpy==1.23.5          # pinned: simple-romp is not compatible with numpy>=2
+scipy
+opencv-python
+pillow
+tqdm
+ultralytics            # YOLOv8 person detector (yolov8n.pt is auto-downloaded)
+
+# RobustVideoMatting (silhouette extraction)
+av
+pims
+
+# ROMP (SMPL extraction) - install Cython first, see README
+Cython
+simple-romp
+
+# Pose (RTMPose via rtmlib)
+rtmlib
+onnxruntime-gpu       # use `onnxruntime` for CPU-only

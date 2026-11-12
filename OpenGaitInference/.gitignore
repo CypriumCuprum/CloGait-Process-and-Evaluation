@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# data, checkpoints and outputs (download / generate separately, see README)
+data/
+output/
+*.pt
+*.pth
+*.npy
+*.pkl
+*.png
+*.log
+events.out.tfevents.*
